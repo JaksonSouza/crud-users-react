@@ -5,13 +5,13 @@ import React from 'react'
 
 import Logo from '../components/templete/Logo'
 import Nav from '../components/templete/Nav'
-import Main from '../components/templete/Main'
+import Home from '../components/home/Home'
 import Footer from '../components/templete/Footer'
 
 export default props =>
     <div className="app">
         <Logo />
         <Nav />
-        <Main icon="home" title="Início" subtitle="Olá, meu nome é Jakson Souza" />
+        <Home />
         <Footer />
     </div>
